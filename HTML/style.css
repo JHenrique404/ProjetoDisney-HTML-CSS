@@ -1,0 +1,183 @@
+@font-face{
+    font-family: "Avenir Roman";
+    src: url(avenir-roman.ttf) format("truetype");
+}
+
+
+body{
+    background: url(imgs/papelDeParede.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+}
+
+
+.btnEntrar{
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #f9f9f9;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 400;
+    transition: .2s ease;
+}
+
+.btnEntrar:hover{
+    background: #f9f9f9;
+    color: black;
+}
+
+.logoDisney{
+    width: 160px;
+}
+
+.partePrincipal{
+    padding: 40px;
+    margin-top: 59px;
+}
+
+.partePrincipal > p{
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 11px;
+    line-height: 17px;
+    margin-top: 16px;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 43px;
+    color: #f9f9f9;
+    margin: 20px 0 30px 0;
+}
+
+.precos{
+    display: flex;
+}
+
+.preco span{
+    color: #f9f9f9;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.preco{
+    width: 300px;
+    max-width: 100%;
+    color: rgba(192, 192, 192, 0.8);
+}
+
+.preco:first-child{
+    display: grid;
+}
+
+.preco:first-child a{
+    align-self: end;
+}
+
+.preco p{
+    margin: 16px 0;
+}
+
+.preco p:first-child{
+    margin: 0;
+}
+
+.preco a{
+    padding: 16.5px 14px;
+    font-size: 18px;
+    background: #0063e5;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s ease;
+}
+
+.preco a:hover{
+    background: #0483ee;
+
+}
+
+.preco + .preco{
+    margin-left: 32px;
+}
+
+
+section.parteJungle{
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+}
+
+img.marcas{
+    position: absolute;
+    size: 16px;
+    width: 600px;
+    left: 43px;
+    top: 625px;
+}
+
+img.poster{
+    position: absolute;
+    width: 630px;
+    left: 5px;
+    top: 740px;
+    padding: 40px;
+}
+
+.textoJungle h2{
+    position: absolute;
+    font-size: 34px;
+    line-height: 41px;
+    color: #f9f9f9;
+    margin: 560px 0 30px 10px;
+}
+
+.textoJungle p{
+    position: absolute;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(192, 192, 192, 0.8);
+    margin: 707px 0 30px 10px;
+}
+
+.textoJungle u{
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.textoJungle a{
+    position: absolute;
+    padding: 17.5px 90px;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    background: #0063e5;
+    letter-spacing: 1px;
+    transition: .2s ease;
+    margin: 880px 0 30px 10px;
+}
+
+.textoJungle a:hover{
+    background: #0483ee;
+}
